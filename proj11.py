@@ -9,3 +9,7 @@ student = {
 data = json.dumps(student)
 
 print(data)
+
+result=json.loads(data)
+print(result)
+print(result["name"])
